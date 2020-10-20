@@ -1,0 +1,151 @@
+body{
+    background: #80865e url(../images/fon.jpg) repeat left top;
+    padding: 12px 0;
+    margin:0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+p{
+    margin:0;
+}
+
+a {
+    color: #577613;
+    text-decoration: underline;
+}
+a:hover{
+    color: #8bbd1d;
+}
+.logo{
+position: relative;
+float: left;
+padding-left: 214px;
+width: 200px;
+font-size: 64px;
+line-height: 100px;
+text-decoration: none;
+color: #000;
+text-align: center;
+}
+
+.logo::first-line{
+    font-size:50px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+.logo span{
+    display: block;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.logo img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+.contakt-info{
+    float: right;
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.contakt-info p {
+    padding-bottom: 14px;
+}
+.main_wrapper{
+    margin: 0 auto;
+    width: 900px;
+    background: #fff;
+    border-radius: 8px;
+}
+.header_wrapper{
+    padding: 8 15px;
+}
+.main_block{
+    padding: 0 15px 40px;
+}
+.content{
+    width: 570px;
+    float: left;
+    font: size 16px;
+    line-height: 24px;
+}
+.content h1{
+    font: 'Times New Roman';
+    font-size: 28px;
+    line-height: 38px;
+}
+.content p{
+    font: 'Times New Roman';
+    font-size: 16px;
+    text-indent: 20px;
+    
+}
+.screenshot{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont-bot{
+    margin-bottom: 40px;
+}
+.sidebar {
+    width: 300px;
+    margin-right: -15px;
+    float: right;
+    background: #fff;
+}
+.sidebar li{
+    padding:6px 0;
+}
+
+li :hover{
+    color: #8bbd1d;
+}
+.sidebar menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.sidebar h2{
+    color: #fff;
+    background: #31420b;
+    padding: 8px 15px;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.green-line, .footer{
+    color: #fff;
+    background: #31420b;
+    padding: 12px 15px;
+    font-size:18px;
+    line-height:24px;
+    border-radius: 8px;
+}
+
+.footer {
+    content: '';
+    clear: both;
+}
+.footer a{
+    text-decoration: none;
+    color:#fff;
+    float: right;
+}
+.footer p{
+    display: inline-block;
+}

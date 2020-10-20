@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+}
+.social {
+  background: #37a14c;
+  margin: 0;
+}
+.socia-wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+.social p {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+.social img {
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.social::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/***************** header-content******************/
+.wrapper-phones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-right: 38px;
+}
+.phones {
+  width: 270px;
+  margin-right: 25px;
+}
+.phones p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.phones a {
+  float: right;
+  width: 150px;
+}
+.phones-admin,
+.phones-donat {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #0f680e;
+}
+.phones-admin > a,
+.phones-donat > a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0f680e;
+}
+.skype,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+}
+.skype a {
+  font-style: italic;
+  color: #1200ff;
+}
+.skype img {
+  margin-left: 20px;
+}
+
+.button-header button {
+  display: block;
+  width: 137px;
+  height: 37px;
+  margin: 0 17px 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 12px;
+  color: #fff;
+  background: #fecb0b;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 2px 2px 1px #293224;
+}
+
+/************menu header****************/
+nav {
+  background: linear-gradient(to bottom, #46da62, #2da045);
+}
+
+nav menu {
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 979px;
+  border-left: 1px solid #57e974;
+  border-right: 1px solid #247634;
+}
+
+nav li {
+  display: table-cell;
+  border-left: 1px solid #247634;
+  border-right: 1px solid #57e974;
+}
+
+nav a {
+  display: block;
+  padding: 12px 0 9px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+nav li.active a,
+nav li:hover {
+  background: linear-gradient(to bottom, #46da62, #2da045);
+}
+
+/*********main container********************/
+main {
+  width: 985px;
+  margin: 0 auto;
+}
+aside {
+  width: 235px;
+}
+main aside {
+  float: left;
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+menu li {
+  list-style-type: none;
+}
+.menu-list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 15px;
+  font-weight: 400;
+}
+.list-m {
+  padding: 18px 0 18px 0;
+  border-top: 1px solid #e7e7e7;
+}
+.list-m:last-child {
+  border-bottom: 1px solid #e7e7e7;
+}
+.menu1 {
+  padding-left: 18px;
+}
+.menu1 li {
+  padding-left: 0;
+}
+.menu1 li::before {
+  content: "-";
+  padding-right: 5px;
+  color: red;
+}
+.menu1 a {
+  color: red;
+}
+menu a {
+  text-decoration: none;
+}
+
+section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #000;
+}
+.article-minecraft {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 38px;
+}
+.article-minecraft p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+section {
+  width: 738px;
+  margin: 0;
+  float: right;
+}
+.figure {
+  background: #319645;
+  width: 232px;
+  height: 265px;
+  float: left;
+  margin: 5px 20px 0 0;
+}
+section .figure::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section .figure:last-child {
+  margin-right: 0;
+}
+
+section h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.figure-data {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding-left: 7px;
+}
+.figure-pr {
+  padding-bottom: 16px;
+}
+.figure-p {
+  padding-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+/***************footer****************/
+.wrpper-block-f {
+  width: 980px;
+  margin: 0 auto;
+}
+.footer-contakt {
+  background: #f4b607;
+  margin-top: 30px;
+  height: 95px;
+}
+.footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.info-server {
+  float: left;
+}
+.info-contakt {
+  float: right;
+  width: 270px;
+  margin-right: 25px;
+}
+.info-contakt::after {
+  content: "";
+  display: block;
+  clear: both;
+}
